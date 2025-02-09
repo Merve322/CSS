@@ -1,0 +1,65 @@
+/* General Styling */
+body {
+    background-color: #A7A6D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Georgia', serif;
+}
+
+/* Card Container */
+.card {
+    background: white;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    text-align: center;
+}
+
+/* Badge */
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #F8E59C; /* Soft Yellow */
+    color: black;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Watch Image */
+.watch-image {
+    width: 100%;
+    display: block;
+}
+
+/* Card Content */
+.card-content {
+    padding: 20px;
+}
+
+/* Title */
+h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 span {
+    font-size: 14px;
+    color: gray;
+    font-weight: normal;
+}
+
+/* Description */
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
