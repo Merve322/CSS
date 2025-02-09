@@ -1,0 +1,66 @@
+/* for background container */
+body::after {
+    content: "";
+    display: block;
+    height: 20px;
+    background: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/* for general styles */
+body, html {
+    background-color: #1a1a1a;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+/* for center container */
+.container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    padding-left: 30px;
+}
+
+/* the card styling */
+.card {
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    text-align: left;
+}
+
+/* for the heading styles */
+.card-header {
+    background-color: #ff1493;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 15px;
+    border-radius: 8px;
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* the body text */
+.card-body {
+    padding-top: 30px;
+    font-size: 16px;
+    color: black;
+    line-height: 1.5;
+}
