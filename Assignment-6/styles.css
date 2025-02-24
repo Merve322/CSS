@@ -1,0 +1,247 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('assets/fonts/gilroy/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('assets/fonts/gilroy/Gilroy-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('assets/fonts/gilroy/Gilroy-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Remove default margins and padding */
+h1,
+h2,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+/* Prevent horizontal scrolling */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 140px;
+  position: absolute;
+  height: 44px;
+  left: calc(50% - 1150px/2 + 0.09px);
+  top: 12px;
+  justify-content: center;
+}
+
+.nav-menu {
+  flex: 1;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Gilroy", -apple-system, Roboto, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #141414;
+  padding: 0px;
+  gap: 40px;
+
+}
+
+.nav-link {
+  color: #141414;
+  text-decoration: none;
+}
+
+.nav-link-active {
+  color: #0065fe;
+}
+
+.nav-features {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.dropdown-icon {
+  width: 24px;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-family: "Gilroy", -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 12px;
+}
+
+.login-link {
+  color: #0065fe;
+  text-decoration: none;
+}
+
+.cta-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-color: #0065fe;
+  color: #fff;
+  text-decoration: none;
+  line-height: 12px;
+  height: 44px;
+  text-align: center;
+  width: 142px;
+  font-size: 16px;
+}
+
+
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 162px 246px 0px;
+  width: 948px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.hero-title {
+  font-family: "Gilroy", -apple-system, Roboto, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #000000;
+  font-weight: 700;
+  line-height: 96px;
+  width: 948px;
+}
+
+.highlight {
+  color: #005ae2;
+}
+
+.title-underline {
+  position: absolute;
+  left: 397px;
+  top: 167.91px;
+  width: 173.63px;
+  height: 19.91px;
+}
+
+.hero-description {
+  width: 781px;
+  height: 105px;
+  color: #141414;
+  font-family: "Gilroy", -apple-system, Roboto, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 20.19px;
+}
+
+.cta-buttons {
+  display: flex;
+  margin-top: 32px;
+  align-items: center;
+  gap: 56px;
+  font-family: "Gilroy", -apple-system, Roboto, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  width: 282px;
+  height: 44px;
+}
+
+.learn-more-link {
+  color: #0065fe;
+  text-decoration: none;
+}
+
+.triangle-deco {
+  position: absolute;
+  left: 434px;
+  top: 638px;
+  z-index: 1;
+}
+
+.features-banner {
+  border-radius: 24px;
+  border: 0.5px solid #005ae2;
+  backdrop-filter: blur(106px);
+  background-color: rgba(254, 254, 254, 0.1);
+  margin-top: 80px;
+  margin-left: 98px;
+  width: 768px;
+  max-height: 224px;
+  max-width: 100%;
+  padding: 40px 60px;
+  z-index: 2;
+}
+
+.banner-logos {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner-text {
+  color: #141414;
+  text-align: center;
+  font-family: "Gilroy", -apple-system, Roboto, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.trapezoid {
+  width: 100vw;
+  height: 93px;
+  margin-top: 83px;
+  background-color: #F8F7F7;
+  clip-path: polygon(16.58% 0%, 83.42% 0%, 100% 100%, 0% 100%);
+  position: relative;
+  left: -40px;
+}
+
+.ellipse {
+position: absolute;
+width: 956px;
+height: 49px;
+background: linear-gradient(180deg, rgba(226, 233, 240, 0.7) 10.68%, rgba(220, 228, 235, 0.7) 44.01%, rgba(226, 233, 240, 0) 100%);
+filter: drop-shadow(0px 4px 4px rgba(18, 36, 89, 0.35));
+}
